@@ -1,36 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Inventario</title>
+    <title>Sistema de Inventario - Madhu</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="navbar">Inventario de Madhu</div>
-    input type="text" placeholder="Buscar productos...">
-    <button>Buscar</button>
-    <div class="información-del-usuario">Usuario</div>
-    </div> 
+    <div class="navbar">
+        <span>Inventario de Madhu</span>
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <input type="text" placeholder="Buscar productos...">
+            <button class="btn">Buscar</button>
+        </div>
+        <div class="informacion-del-usuario">
+            <div style="width: 35px; height: 35px; border-radius: 50%; background: linear-gradient(135deg, var(--gold) 0%, var(--amber) 100%); display: flex; align-items: center; justify-content: center; font-weight: bold; color: var(--purple-dark);">U</div>
+            <span>Usuario</span>
+        </div>
+    </div>
 
-    /*para la barra lateral y el contenido principal.*/
     <div class="contenerdor-principal">
         <div class="sidebar">
             <h2>Menú</h2>
             <ul>
                 <li>Dashboard</li>
                 <li>Productos</li>
-                <li>Entradas</li>
+                <li> Entradas</li>
                 <li>Salidas</li>
-                <li>Alertas</li>
-                <li>Reportes</li>
-                <li>Configuración</li>
+                <li> Alertas</li>
+                <li> Reportes</li>
+                <li> Configuración</li>
             </ul>
         </div>
 
         <div class="contenido-principal">
             <h1>Dashboard de Inventario</h1>
 
-             <div class="dashboard-cards">
+            <div class="dashboard-cards">
                 <div class="card">
                     <div class="card-header">Productos en Stock</div>
                     <div class="card-value">21</div>
@@ -45,12 +51,11 @@
                 </div>
                 <div class="card">
                     <div class="card-header">Valor Total Inventario</div>
-                    <div class="card-value">$2000</div>
+                    <div class="card-value">$2,000</div>
                 </div>
             </div>
-        </div>
 
-         <h2>Productos con Stock Bajo</h2>
+            <h2>Productos con Stock Bajo</h2>
             <table class="tabla-de-productos">
                 <thead>
                     <tr>
@@ -110,7 +115,7 @@
                         <td>Harina Integral</td>
                         <td>Compra</td>
                         <td>+50 kg</td>
-                        <td>Carlos </td>
+                        <td>Carlos</td>
                     </tr>
                     <tr>
                         <td>14/11/2025</td>
@@ -121,5 +126,7 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
+    </div>
 </body>
 </html>
