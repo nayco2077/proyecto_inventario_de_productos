@@ -25,11 +25,9 @@
             <ul>
                 <li>Dashboard</li>
                 <li>Productos</li>
-                <li> Entradas</li>
-                <li>Salidas</li>
-                <li> Alertas</li>
-                <li> Reportes</li>
-                <li> Configuración</li>
+                <li>Alertas</li>
+                <li>Reportes</li>
+                <li>Configuración</li>
             </ul>
         </div>
 
